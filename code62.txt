@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int arr[3]={2,3,4};
+    int i,prd=1,n;
+    printf("n=");
+    scanf("%d",&n);
+
+    for(i=0;i<n;i++)
+    {
+        prd*=arr[i];
+
+    }
+    printf("The sum of elements in array : %d",prd);
+    return 0;
+}
